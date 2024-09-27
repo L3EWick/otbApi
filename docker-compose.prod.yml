@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  backend:
+    build: ./
+    ports:
+      - "3029:80"
+    restart: always
+    volumes:
+      - /filestorages:/filestorages      
+    network_mode: bridge

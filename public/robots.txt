@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+//feito por https://www.instagram.com/ismael__lim4l/
