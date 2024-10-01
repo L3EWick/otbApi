@@ -17,17 +17,11 @@ class DatabaseSeeder extends Seeder
     {
         \App\Models\User::firstOrCreate(["name" => "Ismael Lima"], [
             'name' => 'Ismael Lima',
-            'email' => 'ismael.lima@mesquita.rj.gov.br',
+            'email' => 'ismaeldsl89@gmail.com',
             'nivel' => 'ADMIN',
             'password' => 'teste123'
         ]);
 
-        // \App\Models\User::firstOrCreate(["name" => "Ismael Lima"], [
-        //     'name' => 'Ismael Lima',
-        //     'email' => 'ismaeldsl89@gmail.com',
-        //     'nivel' => 'Super-Admin',
-        //     'password' => 'teste123'
-        // ]);
     }
 }
        
